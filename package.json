@@ -1,0 +1,22 @@
+{
+    "name": "x10",
+    "displayName": "x10",
+    "description": "Xcode Dark Style Theme",
+    "version": "0.0.1",
+    "publisher": "selimanac",
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "x10",
+                "uiTheme": "vs-dark",
+                "path": "./themes/x10-color-theme.json"
+            }
+        ]
+    }
+}
