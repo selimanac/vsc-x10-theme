@@ -6,6 +6,10 @@ Xcode Dark style theme for my personal use.
 
 * Lua
 * C++
+* html
+* css
+* js
+* php
 
 ### Requirements
 

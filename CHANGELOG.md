@@ -2,5 +2,10 @@
 
 ## [Unreleased]
 ### Added
-- Lua
-- C++
+
+* Lua
+* C++
+* html
+* css
+* js
+* php
