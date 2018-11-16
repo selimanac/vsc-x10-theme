@@ -3,6 +3,10 @@
 ## [Unreleased]
 ### Added
 
+* Go
+
+### Added
+
 * Lua
 * C++
 * html

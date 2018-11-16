@@ -10,6 +10,7 @@ Xcode Dark style theme for my personal use.
 * css
 * js
 * php
+* go
 
 ### Requirements
 

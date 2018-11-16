@@ -115,6 +115,7 @@
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
 				"variable.other.global.safer.php"
+				
 			],
 			"settings": {
 				"foreground": "#c0bdbd"
@@ -148,7 +149,13 @@
 				"punctuation.definition.begin.bracket.round.php",
 				"punctuation.definition.end.bracket.round.php",
 				"punctuation.separator.delimiter.php",
-				"keyword.operator"
+				"keyword.operator",
+				"punctuation.definition.bracket.square.go",
+				"punctuation.definition.begin.bracket.round.go",
+				"punctuation.definition.end.bracket.round.go",
+				"punctuation.definition.begin.bracket.curly.go",
+				"punctuation.definition.end.bracket.curly.go"
+
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
@@ -171,6 +178,7 @@
 				"meta.function-call",
 				"source.css",
 				"variable.other.php"
+				
 			],
 			"settings": {
 				"foreground": "#bac2b4"
@@ -180,6 +188,7 @@
 			"scope": [
 				"support.function",
 				"variable.language.this.php"
+				
 			],
 			"settings": {
 				"foreground": "#99E8D5"
@@ -302,13 +311,15 @@
 			}
 		},
 		{
-			"scope": "variable.other.table.property",
+			"scope": ["variable.other.table.property"
+				],
 			"settings": {
 				"foreground": "#A0D975"
 			}
 		},
 		{
-			"scope": "keyword.other.substitution",
+			"scope": ["keyword.other.substitution"
+				],
 			"settings": {
 				"foreground": "#888d94"
 			}
@@ -336,15 +347,16 @@
 				"source.python meta.function-call"
 			],
 			"settings": {
-				"foreground": "#A0D87E",
-				"fontStyle": "bold"
+				"foreground": "#A0D87E"
+				
 			}
 		},
 		{
-			"scope": "source.python support.type",
+			"scope": ["source.python support.type",
+				"variable.other.assignment.go"],
 			"settings": {
 				"foreground": "#B2D088",
-				"fontStyle": "italic bold"
+				"fontStyle": "italic"
 			}
 		}
 	]
