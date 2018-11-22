@@ -114,7 +114,8 @@
 			"scope": [
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"variable.other.global.safer.php"
+				"variable.other.global.safer.php",
+				"keyword.control.directive.conditional.c"
 				
 			],
 			"settings": {
@@ -123,7 +124,7 @@
 		},
 		{
 			"scope": [
-				"punctuation.separator.pointer-access",
+				
 				"punctuation.separator.namespace.access",
 				"keyword.operator.class.php",
 				"punctuation.section.parens.begin.bracket.round",
@@ -131,10 +132,12 @@
 				"punctuation.definition.begin.bracket.square",
 				"punctuation.definition.end.bracket.square",
 				"punctuation.section.block.begin.bracket.curly",
+				"punctuation.section.block.end.bracket.curly",
 				"punctuation.section.arguments.begin.bracket.round",
 				"punctuation.terminator.statement",
 				"punctuation.section.parens.end.bracket.round",
 				"punctuation.section.parameters.begin.bracket.round",
+				"punctuation.section.parameters.end.bracket.round",
 				"punctuation.section.arguments.end.bracket.round",
 				"meta.function-call.arguments",
 				"punctuation.definition.begin.bracket.curly.php",
@@ -158,7 +161,7 @@
 
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#e4e4e4"
 			}
 		},
 		{
@@ -167,7 +170,9 @@
 				"constant.language",
 				"storage.type",
 				"keyword.control",
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name.html",
+				"keyword.operator.comparison.c",
+				"punctuation.separator.pointer-access"
 			],
 			"settings": {
 				"foreground": "#FF7AB2"
@@ -177,7 +182,8 @@
 			"scope": [
 				"meta.function-call",
 				"source.css",
-				"variable.other.php"
+				"variable.other.php",
+				"variable.other.member.c"
 				
 			],
 			"settings": {
@@ -357,6 +363,14 @@
 			"settings": {
 				"foreground": "#B2D088",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"constant.numeric.c"],
+			"settings": {
+				"foreground": "#eed4bb"
+				
 			}
 		}
 	]
