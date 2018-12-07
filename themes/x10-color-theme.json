@@ -187,6 +187,7 @@
 				
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#c7cec2"
 			}
 		},
@@ -229,7 +230,8 @@
 		{
 			"scope": [
 				"storage.type.function.arrow",
-				"storage.type.class"
+				"storage.type.class",
+				"support.type.object.module.js"
 			],
 			"settings": {
 				"foreground": "#E088AF"
@@ -237,7 +239,8 @@
 		},
 		{
 			"scope": [
-				"keyword.control.lua"
+				"keyword.control.lua",
+				"keyword.control.conditional.js"
 			],
 			"settings": {
 				"foreground": "#C63497"
@@ -248,6 +251,7 @@
 				"variable.other.table.property.lua"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#97CDC1"
 			}
 		},
@@ -263,9 +267,10 @@
 		{
 			"scope": [
 				"support.type.sys-types",
-				"support.function.C99"
+				"support.function.C99"	
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#00B0C8"
 			}
 		},
@@ -273,9 +278,12 @@
 		{
 			"scope": [
 				"entity.name.type",
-				"support.type.property-name"
+				"support.type.property-name",
+				"support.variable.property.dom.js",
+				"variable.other.property.js"
 			],
 			"settings": {
+				"fontStyle": "normal",
 				"foreground": "#97CDC1"
 			}
 		},
@@ -301,7 +309,9 @@
 				"entity.name.function.php",
 				"support.function.construct.php",
 				"punctuation.definition.arguments.begin.bracket.round.php",
-				"punctuation.definition.arguments.end.bracket.round.php"
+				"punctuation.definition.arguments.end.bracket.round.php",
+				"entity.name.type.class.js",
+				"meta.class.js"
 			],
 			"settings": {
 				"foreground": "#92C872"
@@ -404,7 +414,8 @@
 		{
 			"scope": [
 				"constant.numeric.c",
-			"constant.numeric.lua"],
+			"constant.numeric.lua",
+		"constant.numeric.decimal.js"],
 			"settings": {
 				"foreground": "#8785CC"
 				
