@@ -24,13 +24,14 @@
 		"sideBar.background": "#24252b",
 		"sideBarSectionHeader.background": "#2C2D30",
 		"sideBarSectionHeader.foreground": "#fff",
-		"sideBar.foreground": "#808080",
+		"sideBar.foreground": "#cccccc",
 		"sideBar.border": "#252525",
 		"badge.background": "#287DF6",
 		"badge.foreground": "#fff",
 		"titleBar.activeBackground": "#1F2022",
 		"titleBar.border": "#1F2022",
-		"editorRuler.foreground": "#2C2D30"
+		"editorRuler.foreground": "#2C2D30",
+
 	},
 	"tokenColors": [
 		{
